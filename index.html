@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- local css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- axios cdn -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <title>Appointment</title>
+  </head>
+  <body>
+    <h2 class="title">Appointment Booking app</h2>
+
+    <form class="form" onsubmit="postForm(event)">
+      <label for="username">Name:</label>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        placeholder="Enter name here..."
+        required
+      />
+
+      <label for="email">Email:</label>
+      <input
+        type="text"
+        name="email"
+        id="email"
+        placeholder="Enter email here..."
+        required
+      />
+
+      <button class="submitButton" type="submit">Submit</button>
+    </form>
+
+    <h2 class="user-list-heading">Registered users</h2>
+
+    <div id="line_breaker"></div>
+    
+    <ul class="UserList" id="users"></ul>
+
+
+    <div id="line_breaker"></div>
+
+    <footer style="text-align: center; margin: 2rem; margin-bottom: 1rem;">
+      <p>Made with ❤️</p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>

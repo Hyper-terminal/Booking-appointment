@@ -1,0 +1,99 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label {
+  color: #ffcaca;
+}
+
+body {
+  background: #000000;
+  height: 100vh;
+}
+
+.title {
+  text-align: center;
+  font-size: 5em;
+  filter: drop-shadow(0 -6mm 4mm rgb(160, 0, 210));
+}
+
+.form {
+  width: 50%;
+  height: 19rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.5em;
+  background-color: #372948;
+  filter: drop-shadow(0 -6mm 4mm rgb(160, 0, 210));
+}
+
+.form label {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.form input {
+  height: 3rem;
+  margin-top: 0.1rem;
+  width: 90%;
+  border-radius: 0.3rem;
+  background-color: lightgrey;
+}
+
+.submitButton {
+  margin-top: 1.3rem;
+  height: 3rem;
+  width: 10rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.submitButton:hover {
+  transform: scale(1.05);
+}
+
+.submitButton:focus {
+  background-color: #ffcaca;
+}
+
+.user-list-item {
+  display: flex;
+  color: whitesmoke;
+  justify-content: center;
+  margin-top: 2em;
+  font-size: 2rem;
+}
+
+.user-list-heading {
+  text-align: center;
+  margin-top: 3.5rem;
+  font-size: 4rem;
+  filter: drop-shadow(0 0 0.75rem crimson);
+}
+
+.user-list-delbutton,
+.user-list-editbutton {
+  margin-left: 1rem;
+  height: 2.8rem;
+  filter: drop-shadow(10px 10px 4px #4444dd);
+  transition: all 0.3s ease-in-out;
+}
+
+.user-list-delbutton:hover,
+.user-list-editbutton:hover {
+  filter: drop-shadow(0 0 0.75rem crimson);
+}
+
+
+#line_breaker{
+    background: red;
+    width: 80%;
+    height: -4vh;
+    margin: auto;
+    margin-top: 4rem;
+    border: 1px solid blue;
+}
